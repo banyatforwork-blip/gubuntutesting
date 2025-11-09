@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gubuntu - Building...</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            color: #a0a0a0;
+            margin-bottom: 1.5rem;
+        }
+        .info {
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        .info h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #8b5cf6;
+        }
+        .info ol {
+            text-align: left;
+            margin-left: 1.5rem;
+        }
+        .info li {
+            margin-bottom: 0.5rem;
+            color: #c0c0c0;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-family: 'Courier New', monospace;
+            color: #ec4899;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gubuntu</h1>
+        <p>Ubuntu without the Canonical modifications. Stock GNOME desktop. Pure freedom.</p>
+        
+        <div class="info">
+            <h2>🚀 Setup Required</h2>
+            <p>This is a placeholder page. To deploy your static site:</p>
+            <ol>
+                <li>Push this code to your GitHub repository</li>
+                <li>Go to <strong>Settings</strong> → <strong>Pages</strong></li>
+                <li>Set <strong>Source</strong> to "Deploy from a branch"</li>
+                <li>Select <strong>Branch: main</strong>, <strong>Folder: /docs</strong></li>
+                <li>Click <strong>Save</strong></li>
+            </ol>
+            <p style="margin-top: 1rem;">The GitHub Actions workflow will automatically build and update this site on every push to main.</p>
+        </div>
+    </div>
+</body>
+</html>
